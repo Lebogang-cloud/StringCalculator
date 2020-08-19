@@ -1,6 +1,6 @@
 //index_spec.js
   
-var {Calculator} = require("./src/index")
+var {Calculator} = require("../src/index")
 
 
 describe("String calculator should return zero when '' is passed", function () {
