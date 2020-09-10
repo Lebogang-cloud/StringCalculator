@@ -1,13 +1,12 @@
-//index_spec.js
-  
-var {Calculator} = require("../src/index")
+var calculator = require("../src/stringCalculator")
+
 
 
 describe("String calculator should return zero when '' is passed", function () {
-    let calculator = new Calculator();
+    
  
      it(" String calculator should return equal to zero", function () {
-         expect(calculator.add("")).toEqual(0);
+         expect(calculator.add("")).toBe(0);
      });
   
      it("String calculator should return equal  to one", function () {

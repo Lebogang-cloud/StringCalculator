@@ -1,6 +1,4 @@
-class Calculator{
-
-    negatives(string) {
+function negatives(string) {
 		let str = '';
 		let numbers = string.split(',');
 
@@ -13,7 +11,7 @@ class Calculator{
 		return str;
 	}
 
-    add(numbers) {
+function add(numbers) {
 
 		let results = 0;
 		let negatives = this.negatives(numbers);
@@ -41,6 +39,6 @@ class Calculator{
 		return results;
 	}
       
-}
 
- module.exports = {Calculator}
+
+ module.exports = {add, negatives}
